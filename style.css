@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+
+main {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div {
+    justify-content: center;
+   /*  min-width: 200px;
+    max-width: 390px; */
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 80px;
+}
+
+.titulo {
+    font-family: "Baloo 2";
+    color: #c47f17;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.paragrafo {
+    font-family: "Poppins";
+    color: #403937;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.botao {
+    font-family: "Poppins";
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #54857b;
+    padding: 16px;
+    min-width: 280px;
+    border-radius: 100px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 992px) {
+
+    /* CSS */
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        padding: 80px;
+    }
+
+    main {
+        align-items: center;
+    }
+
+    .titulo {
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .paragrafo {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .botao {
+        font-size: 24px;
+        font-weight: 700;
+        padding: 16px 183px;
+        background-color: #c47f17;
+    
+    }
+    
+    #logo {
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    /* CSS */
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    main {
+        max-width: 1120px;
+    }
+
+    .titulo {
+        font-size: 48px;
+        font-weight: 900;
+    }
+
+    .paragrafo {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .botao {
+        font-size: 32px;
+        padding: 16px 105px;
+    }
+
+   
+
+}
